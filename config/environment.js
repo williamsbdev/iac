@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'ec-prezo',
+    modulePrefix: 'iac',
     environment: environment,
     baseURL: '/',
     locationType: 'hash',

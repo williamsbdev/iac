@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import SlideComponent from 'ec-prezo/components/slide';
+import SlideComponent from 'iac/components/slide';
 import { task, subscribe, events } from 'ember-concurrency';
 
 const { computed } = Ember;
