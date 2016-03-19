@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import { task, timeout, subscribe, events, race } from 'ember-concurrency';
+import { task, timeout, subscribe, events } from 'ember-concurrency';
 
 const BASE_WIDTH  = 900;
 const BASE_HEIGHT = 500;

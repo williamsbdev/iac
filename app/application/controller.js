@@ -61,7 +61,7 @@ export default Ember.Controller.extend(Ember.Evented, {
 
   index: 0,
   keyboardListener: task(function * () {
-    yield subscribe(events(Ember.$(document.body), 'keydown'), function * (ev) {
+    yield subscribe(events(Ember.$(document.body), 'keydown'), function (ev) {
       let { keyCode } = ev;
       let destination;
       if (keyCode === LEFT) {

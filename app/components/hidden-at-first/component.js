@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import { task, events, subscribe } from 'ember-concurrency';
+import { task, events } from 'ember-concurrency';
 
 export default Ember.Component.extend({
   tagName: '',
